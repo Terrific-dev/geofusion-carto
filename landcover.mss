@@ -458,7 +458,7 @@
   [feature = 'landuse_commercial'][zoom >= 8] {
     polygon-fill: @built-up-lowzoom;
     [zoom >= 11] { polygon-fill: @built-up-z11; }
-    [zoom >= 12] { polygon-fill: @built-up-z12; }
+    [zoom >= 12] { polygon-fill: @built-up-z11; }
     [zoom >= 13] { polygon-fill: @commercial; }
     [zoom >= 16] {
       line-width: 0.5;
