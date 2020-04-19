@@ -12,7 +12,7 @@
 // --- "Base" landuses ---
 
 @built-up-lowzoom: #d0d0d0;
-@built-up-z11: #dddddd;
+@built-up-z12: #dddddd;
 @residential: #c9c5c5;      // Lch(89,0,0)
 @residential-line: #b9b9b9; // Lch(75,0,0)
 @retail: #dececc;           // Lch(89,16,30)
