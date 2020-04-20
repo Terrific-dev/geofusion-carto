@@ -1,27 +1,41 @@
-# OpenStreetMap Carto
+# Piri Reis Carto
 
 ![screenshot](https://raw.github.com/gravitystorm/openstreetmap-carto/master/preview.png)
 
-These are the CartoCSS map stylesheets for the Standard map layer on [OpenStreetMap.org](https://www.openstreetmap.org).
+Piri Reis Carto is a CartoCSS Map Stylesheet intended to be a modern, efficient and aesthetic style layer. 
+Piri Reis carto is named after Piri Reis, an Ottoman cartographer who created one of the first world maps. 
+
+This stylesheet is forked from the original OpenStreetMap carto repository, and is compatible with v4 and v5 versions. 
 
 These stylesheets can be used in your own cartography projects, and are designed
-to be easily customised. They work with [Kosmtik](https://github.com/kosmtik/kosmtik)
- and also with the command-line [CartoCSS](https://github.com/mapbox/carto) processor.
+to be easily customised. They work with the command-line [CartoCSS](https://github.com/mapbox/carto) processor.
 
-Since August 2013 these stylesheets have been used on the OSMF tileservers (tile.openstreetmap.org), and
-are updated from each point release. They supersede the previous [XML-based stylesheets](https://github.com/openstreetmap/mapnik-stylesheets).
+Since April 2020, this stylesheet has also been implemented in [OpenGeofiction](https://www.opengeofiction.net), on the OpenGeofiction [tile server](https://tile.opengeofiction.net/util/ogfcarto.html?map=C/5/31.39116/71.27930).
 
-# Installation
+Piri Reis is currently on Beta - so big changes are expected to progress.
+
+# Contributing
+
+Contributions and suggestions are welcome. To help with the "Piri Reis" Project, you can write a message to me.
+
+# History
+
+## Piri Reis BETA
+This is the current version.
+
+# Original, OpenStreetMap Carto description.
+
+## Installation
 
 You need a PostGIS database populated with OpenStreetMap data along with auxillary shapefiles.
 See [INSTALL.md](INSTALL.md).
 
-# Contributing
+## Contributing
 
 Contributions to this project are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md)
 for full details.
 
-# Versioning
+## Versioning
 
 This project follows a MAJOR.MINOR.PATCH versioning system. In the context of a
 cartographic project you can expect the following:
@@ -37,21 +51,21 @@ cartographic project you can expect the following:
 * MAJOR: Any change the requires reloading a database, or upgrading software
   dependecies will trigger a major version change.
 
-# Roadmap
+## Roadmap
 
-## Initial Release (v1.0.0, December 2012)
+### Initial Release (v1.0.0, December 2012)
 
 This was a full re-implementation of the original OSM style, with only a few bugs discovered later. There's been
 no interest in creating further point releases in the v1.x series.
 
-## Mapnik 2 work (v2.x)
+### Mapnik 2 work (v2.x)
 
 The v2.x series initially focused on refactoring the style, both to to fix
 glitches and to leverage new features in CartoCSS / Mapnik to simplify the
 stylesheets with only small changes to the output, as well as removing 'old-skool'
 tagging methods that are now rarely used. It then started adding new features.
 
-## Mapnik and CartoCSS update (v3.x)
+### Mapnik and CartoCSS update (v3.x)
 
 The v3.x series was triggered by an update to the required Mapnik and CartoCSS
 versions.
@@ -63,7 +77,7 @@ these often make it easier to customise, experience has shown that over-cleverne
 [issues]: https://github.com/gravitystorm/openstreetmap-carto/issues
 [cleverness]: https://github.com/openstreetmap/mapnik-stylesheets/blob/master/inc/settings.xml.inc.template#L16
 
-## Database schema change (v4.x)
+### Database schema change (v4.x)
 
 The v4.x series includes [osm2pgsql lua transforms](https://github.com/openstreetmap/osm2pgsql/blob/master/docs/lua.md)
 and a hstore column with all other tags, allowing use of more OpenStreetMap data. Users need
@@ -73,7 +87,7 @@ There are over [300 open requests][issues], some that have been open for years.
 These need reviewing and dividing into obvious fixes, or additional new features
 that need some cartographic judgement.
 
-# Alternatives
+## Alternatives
 
 There are many open-source stylesheets written for creating OpenStreetMap-based
 maps using Mapnik, many based on this project. Some alternatives are:
@@ -83,7 +97,7 @@ maps using Mapnik, many based on this project. Some alternatives are:
 * [osmfr-cartocss](https://github.com/cquest/osmfr-cartocss)
 * [openstreetmap-carto-german](https://github.com/giggls/openstreetmap-carto-de)
 
-# Maintainers
+## OSM Carto Maintainers
 
 * Andy Allan [@gravitystorm](https://github.com/gravitystorm/)
 * Matthijs Melissen [@matthijsmelissen](https://github.com/matthijsmelissen/)
