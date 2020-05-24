@@ -1,9 +1,9 @@
 // --- Parks, woods, other green things ---
 
-@grass: #c8e09f;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@grass: #809956;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
 @scrub: #c8d7ab;        // Lch(84,24,122)
 @forest: #336e30;       // Lch(80,30,135)
-@forest-text: #8cd48e;  // Lch(40,30,135)
+@forest-text: #1c9443;  // Lch(40,30,135)
 @park: #80f28a;         // Lch(94,30,145)
 @allotments: #c9e1bf;   // Lch(87,20,135)
 @orchard: #a3cc95; // also vineyard, plant_nursery
@@ -12,7 +12,7 @@
 // --- "Base" landuses ---
 
 @built-up-lowzoom: #d0d0d0;
-@built-up-z11: #dddddd;
+@built-up-z12: #dddddd;
 @residential: #c9c5c5;      // Lch(89,0,0)
 @residential-line: #b9b9b9; // Lch(75,0,0)
 @retail: #dececc;           // Lch(89,16,30)
