@@ -12,16 +12,19 @@ to be easily customised. They work with the command-line [CartoCSS](https://gith
 
 Since April 2020, this stylesheet has also been implemented in [OpenGeofiction](https://www.opengeofiction.net), on the OpenGeofiction [tile server](https://tile.opengeofiction.net/util/ogfcarto.html?map=C/5/31.39116/71.27930).
 
-Piri Reis is currently on Beta - so big changes are expected to progress.
+Piri Reis was in Beta from 20-04-20 to 24-05-20 (Non-US order of date)
 
 # Contributing
 
-Contributions and suggestions are welcome. To help with the "Piri Reis" Project, you can write a message to me.
+Contributions and suggestions are welcome. To help with the "Piri Reis" Project, you can write a message to me, or write something in the issue tab.
 
-# History
+# History, see [CHANGELOG.md](Changelog.md)
+
+## Piri Reis v1.0.0 
+Current version. 
 
 ## Piri Reis BETA
-This is the current version.
+Version from April 20 to May 24 - 2020
 
 # Original, OpenStreetMap Carto description.
 
