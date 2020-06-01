@@ -1,10 +1,10 @@
 // --- Parks, woods, other green things ---
 
-@grass: #809956;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@grass: #c8e09f;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
 @scrub: #c8d7ab;        // Lch(84,24,122)
 @forest: #336e30;       // Lch(80,30,135)
-@forest-text: #1c9443;  // Lch(40,30,135)
-@park: #80f28a;         // Lch(94,30,145)
+@forest-text: #8cd48e;  // Lch(40,30,135)
+@park: #ceedd1;         // Lch(94,30,145)
 @allotments: #c9e1bf;   // Lch(87,20,135)
 @orchard: #a3cc95; // also vineyard, plant_nursery
 @hedge: @forest;       // Lch(80,30,135)
